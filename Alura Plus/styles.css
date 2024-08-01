@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-branco: #ffffff;
+    --cor-cinza: #C0C0C0;
+    --cor-azul: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url(./assets/Background\ \(1\).png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao {
+    background-color: var(--cor-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-branco);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao2 {
+    background-color: transparent;
+    border: 2px solid var(--cor-branco);
+}
+
+.container_aviso {
+    font-size: 0.75rem;
+    color: var(--cor-cinza);
+}
+
+.container_titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container_img {
+    margin: 1em 0 2em 0;
+}
+
+.container_caixa {
+    margin: 0 6em;
+}
+
+.secundario_img {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--cor-branco);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cor-cinza);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao {
+    padding: 2em;
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    font-size: 3rem;
+    color: var(--cor-branco);
+}
+
+.lista_item {
+    font-size: 2rem;
+    color: var(--cor-branco);
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    margin: 10em 0 5em 0;
+}
+
+.rodape_titulo {
+    display: flex;
+    text-align: center;
+}
+
+.rodape_lista {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 1.5em;
+}
+
+.lista_link a{
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.rodape_texto {
+    text-align: center;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 15em;
+}
+
+.lista_link a:hover {
+    color: var(--cor-azul);
+}
+
+.lista_link a:active {
+    color: red;
+}
+
